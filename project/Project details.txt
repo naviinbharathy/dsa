@@ -1,0 +1,28 @@
+
+I was working on two different projects at same time. Those are Chanakya and LPMS (Limited partner management system).
+
+1. Project: Chanakya (Feb 2022 - Apr 2024)
+Description:
+Chanakya is a workflow automation tool aimed at streamlining task and compliance management. The system automates approval processes and improves communication by sending task reminders, approval status updates, and periodic reports. This ensures managers and employees are kept informed about task statuses, promoting efficient task tracking and completion across teams.
+
+Responsibilities and Key Contributions:
+
+Implemented automated email notifications for task reminders, approval statuses, and task summaries.
+Optimized SQL queries to reduce the report generation time for large-scale reports.
+Integrated Role-Based Access Control (RBAC) to manage secure access and data restrictions.
+Developed a task scheduling feature using Quartz Scheduler to automate recurring workflows, increasing efficiency.
+Designed and maintained user-friendly interfaces to facilitate easy task tracking and management for both managers and employees.
+2. Project: Limited Partner Management System (LPMS) (Feb 2022 - Apr 2024)
+Description:
+LPMS is a web application designed to simplify the management of investors, including onboarding, data migration, and investment tracking. The system also handles capital calls, payment processing, and return distributions to investors. LPMS provides transparency and facilitates enhanced communication between investors and fund managers through customizable reporting and automated processes.
+
+Responsibilities and Key Contributions:
+
+Implemented automated report generation (quarterly, half-yearly, and yearly) for over 10,000 investors.
+Optimized SQL queries and implemented caching strategies to improve system performance, especially for handling large-scale data.
+Automated report distribution to investors using Quartz Scheduler, improving operational efficiency.
+Ensured data security and integrity by applying encryption techniques to sensitive documents.
+Automated the migration of investor data from spreadsheets, significantly reducing manual work.
+Developed a customizable dashboard for fund managers to monitor key metrics like investor contributions and returns.
+
+
