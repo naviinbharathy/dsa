@@ -1,0 +1,35 @@
+1. Investor Onboarding and Data Migration
+Use Case: Streamline the onboarding of new investors and migrate their data from legacy spreadsheets.
+Actors: Fund Managers, System Administrators
+Steps:
+Fund managers input new investor information.
+System validates and imports data from spreadsheets.
+Investor profiles are created and stored in the system.
+Outcome: Efficient onboarding process with accurate data migration, reducing manual entry errors.
+
+2. Capital Call Management
+Use Case: Automate the creation and distribution of capital call notices to investors.
+Actors: Fund Managers, Investors
+Steps:
+Fund managers initiate a capital call.
+System calculates each investor's contribution based on predefined agreements.
+Capital call notices are generated and sent to investors.
+Outcome: Timely and accurate capital call notifications, improving cash flow management.
+
+3. Payment Processing and Returns Distribution
+Use Case: Manage the processing of payments received from investors and distribute returns.
+Actors: Finance Team, Investors
+Steps:
+System records payments received from investors.
+Based on investment performance, the system calculates returns.
+Returns are processed and distributed to investors' accounts.
+Outcome: Accurate tracking of payments and efficient distribution of returns, ensuring transparency and investor satisfaction.
+
+4. Automated Report Generation and Distribution
+Use Case: Generate and distribute investment performance reports periodically.
+Actors: Fund Managers, Investors
+Steps:
+System schedules and generates reports using Quartz Scheduler.
+Reports include investment summaries, returns, and capital contributions.
+Reports are distributed to investors automatically via email.
+Outcome: Investors receive detailed, periodic reports, enhancing transparency and trust in the management system.
