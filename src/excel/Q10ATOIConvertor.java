@@ -16,6 +16,7 @@ public class Q10ATOIConvertor {
 
         for (; i < arr.length; i++) {
             if (arr[i] >= '0' && arr[i] <= '9')
+                //result = (result * 10) + Integer.parseInt(String.valueOf(arr[i]));
                 result = (result * 10) + (arr[i] - '0');
             else
                 return -1;

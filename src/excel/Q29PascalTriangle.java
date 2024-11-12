@@ -31,8 +31,10 @@ public class Q29PascalTriangle {
 
     public static void main(String[] args) {
         int numRows = 5;
-        int[][] pascalTriangle = generatePascalTriangle(numRows);
-        printPascalTriangle(pascalTriangle);
+    //    int[][] pascalTriangle = generatePascalTriangle(numRows);
+        List<List<Integer>> pascalTriangle = generatePascalTriangle1(numRows);
+    //    printPascalTriangle(pascalTriangle);
+        System.out.println(pascalTriangle.toString());
     }
 
     // Approach 2 - Using List

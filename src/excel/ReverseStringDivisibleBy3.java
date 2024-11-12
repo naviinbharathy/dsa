@@ -23,12 +23,12 @@ public class ReverseStringDivisibleBy3 {
                 }
             }
         }
-        return Arrays.toString(arr);
+        return new String(arr);
     }
 
 
     public static void main(String[] args) {
-        String input = "12345632189";
+        String input = "12345689";
         String output = reverseDivisibleByThree(input);
         System.out.println("Reversed String : " + output);
     }

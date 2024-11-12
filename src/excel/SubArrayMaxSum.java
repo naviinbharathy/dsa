@@ -28,7 +28,7 @@ public class SubArrayMaxSum {
     public static void main(String[] args) {
 
         int[] arr = {2, 4, 6, 10, 2, 1};
-        int k = 12;
+        int k = 3;
 
         int result = slidingWindow(arr, k);
 

@@ -44,11 +44,6 @@ public class Q4StringTraversing {
     }
 
     private static String[] beautifyInput(String directions) {
-       /* directions = directions.replaceAll("UP", "U")
-                .replaceAll("DOWN", "D")
-                .replaceAll("LEFT", "L")
-                .replaceAll("RIGHT", "R");*/
-
         return directions.contains("x") ? directions.split(" ") : directions.split("");
     }
 

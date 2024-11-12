@@ -15,12 +15,12 @@ public class Q33RainWaterTrap {
         int rightMax = Integer.MIN_VALUE;
 
         while (left < right) {
-            if (a[left] > leftMax) {
+            if (a[left] > leftMax)
                 leftMax = a[left];
-            }
-            if (a[right] > rightMax) {
+
+            if (a[right] > rightMax)
                 rightMax = a[right];
-            }
+
             if (leftMax < rightMax) {
                 ans += (leftMax - a[left]);
                 left++;

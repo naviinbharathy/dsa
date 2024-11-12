@@ -11,10 +11,10 @@ public class Q15HighestAverage {
 
         for (String[] entry : marksArray) {
 
-            String student = entry[0];
+            String studentName = entry[0];
             int mark = Integer.parseInt(entry[1]);
 
-            studentMarks.computeIfAbsent(student, k -> new ArrayList<>()).add(mark);
+            studentMarks.computeIfAbsent(studentName, k -> new ArrayList<>()).add(mark);
         }
 
         double highestAvg = Double.MIN_VALUE;
@@ -22,14 +22,14 @@ public class Q15HighestAverage {
 
         for (Map.Entry<String, List<Integer>> entry : studentMarks.entrySet()) {
 
-            String student = entry.getKey();
+            String studentName = entry.getKey();
             List<Integer> marks = entry.getValue();
 
             double average = marks.stream().mapToInt(Integer::intValue).average().orElse(0);
 
             if (average > highestAvg) {
                 highestAvg = average;
-                topStudent = student;
+                topStudent = studentName;
             }
         }
 

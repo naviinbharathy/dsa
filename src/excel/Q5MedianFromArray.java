@@ -2,7 +2,7 @@ package excel;
 
 public class Q5MedianFromArray {
 
-    private static int findMedian(int[] arr1, int[] arr2) {
+    private static double findMedian(int[] arr1, int[] arr2) {
 
         int[] merged = merge(arr1, arr2);
 
@@ -10,7 +10,7 @@ public class Q5MedianFromArray {
         int midIndex = (length) / 2;
 
         if (length % 2 == 0)
-            return (merged[midIndex - 1] + merged[midIndex]) / 2;
+            return (double) (merged[midIndex - 1] + merged[midIndex]) / 2;
         else
             return merged[midIndex];
     }

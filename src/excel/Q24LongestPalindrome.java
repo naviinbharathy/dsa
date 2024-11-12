@@ -15,12 +15,12 @@ public class Q24LongestPalindrome {
             String odd = expandFromCenter(s, i, i);
             String even = expandFromCenter(s, i, i + 1);
 
-            if (odd.length() > maxStr.length()) {
+            if (odd.length() > maxStr.length())
                 maxStr = odd;
-            }
-            if (even.length() > maxStr.length()) {
+
+            if (even.length() > maxStr.length())
                 maxStr = even;
-            }
+
         }
 
         return maxStr;
