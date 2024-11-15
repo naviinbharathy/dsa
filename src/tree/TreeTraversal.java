@@ -1,4 +1,4 @@
-package excel.tree;
+package tree;
 
 public class TreeTraversal {
 

@@ -1,6 +1,4 @@
-package excel;
-
-import java.util.Arrays;
+package practice;
 
 public class ReverseStringDivisibleBy3 {
 

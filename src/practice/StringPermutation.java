@@ -1,10 +1,9 @@
-package excel;
+package practice;
 
 /*
 Write code to find if two given strings are Permutation of each other or not
  */
 
-import java.util.Arrays;
 import java.util.HashMap;
 
 public class StringPermutation {

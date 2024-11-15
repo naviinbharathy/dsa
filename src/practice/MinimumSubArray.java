@@ -1,4 +1,4 @@
-package excel;
+package practice;
 
 public class MinimumSubArray {
 
