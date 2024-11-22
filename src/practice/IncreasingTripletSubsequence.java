@@ -4,7 +4,7 @@ package practice;
 public class IncreasingTripletSubsequence {
 
     /*
-    If there's nay need to return the index / values of Triplet
+    If there's any need to return the index / values of Triplet
     Keep 3 other variables to hold the index / value
      */
 

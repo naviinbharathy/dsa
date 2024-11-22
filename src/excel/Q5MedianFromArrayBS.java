@@ -13,21 +13,14 @@ public class Q5MedianFromArrayBS {
         int low = 0, high = x;
 
         while (low <= high) {
-
             int midX = (low + high) / 2;
             int midY = (x + y + 1) / 2 - midX;
 
             int minX = (midX == x) ? Integer.MAX_VALUE : arr1[midX];
-            int minY = (midY == y) ? Integer.MAX_VALUE : arr2[midY];
             int maxX = (midX == 0) ? Integer.MIN_VALUE : arr1[midX - 1];
+
+            int minY = (midY == y) ? Integer.MAX_VALUE : arr2[midY];
             int maxY = (midY == 0) ? Integer.MIN_VALUE : arr2[midY - 1];
-
-            System.out.println("midX = " + midX);
-            System.out.println("midY = " + midY);
-
-            System.out.println("min = (" + minX + ", " + minY + ")");
-            System.out.println("max = (" + maxX + ", " + maxY + ")");
-
 
             if (maxX <= minY && maxY <= minX) {
                 if ((x + y) % 2 == 0)

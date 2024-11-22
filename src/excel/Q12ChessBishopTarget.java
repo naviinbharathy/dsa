@@ -7,7 +7,8 @@ public class Q12ChessBishopTarget {
         // (x1, y1) bishop position
         // (x2, y2) target position
 
-        // possible input value 0 to 7
+        // validate input
+        // possible input values 0 to 7
 
         if((x1 + y1) % 2 != (x2 + y2) % 2)
             return 0;

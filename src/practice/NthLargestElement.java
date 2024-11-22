@@ -7,20 +7,20 @@ public class NthLargestElement {
 
     static int findNthLargest(int[] arr, int n) {
 
-        PriorityQueue<Integer> queue = new PriorityQueue<>();
+        PriorityQueue<Integer> minHeap = new PriorityQueue<>();
 
         for(int i = 0; i < n; i++) {
-            queue.add(arr[i]);
+            minHeap.add(arr[i]);
         }
 
         for(int i = n; i < arr.length; i++) {
-            if(arr[i] > queue.peek()) {
-                queue.poll();
-                queue.add(arr[i]);
+            if(arr[i] > minHeap.peek()) {
+                minHeap.poll();
+                minHeap.add(arr[i]);
             }
         }
 
-        return queue.peek();
+        return minHeap.peek();
     }
 
     public static void main(String[] args) {

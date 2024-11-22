@@ -14,18 +14,17 @@ public class Q11MinimumInSortedRotatedArray {
                 low = mid + 1;
             } else
                 high = mid;
-
-
         }
 
         return arr[low];
     }
 
+    // 3 4 5 1 2
+
 
     public static void main(String[] args) {
 
-     //   int[] arr1 = {5, 6, 1, 2, 3, 4};
-        int[] arr2 = {1, 2, 3, 4};
+        int[] arr2 = {3, 4, 5, -1, 1, 2};
 
         System.out.println(findMinimum(arr2));
     }

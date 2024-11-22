@@ -1,15 +1,11 @@
 package excel;
 
-import practice.ArrayIndexBinarySearch;
-
-import java.util.Arrays;
-import java.util.Comparator;
 import java.util.HashMap;
 import java.util.Map;
 
 public class Q16IPAddress {
 
-    static String findMaxOccuranceIp(String[] logs) {
+    static String findMaxOccurrenceIp(String[] logs) {
 
         Map<String, Integer> map = new HashMap<>();
 
@@ -67,6 +63,6 @@ public class Q16IPAddress {
                 "10.0.0.2 bytes=32 time=50ms TTL=93",
         };
 
-        System.out.println(findMaxOccuranceIp(logs));
+        System.out.println(findMaxOccurrenceIp(logs));
     }
 }

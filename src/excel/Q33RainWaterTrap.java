@@ -15,6 +15,7 @@ public class Q33RainWaterTrap {
         int rightMax = Integer.MIN_VALUE;
 
         while (left < right) {
+
             if (a[left] > leftMax)
                 leftMax = a[left];
 
@@ -29,6 +30,7 @@ public class Q33RainWaterTrap {
                 right--;
             }
         }
+
         return ans;
     }
 }

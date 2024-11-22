@@ -25,7 +25,7 @@ public class Q9DistanceBetweenWords {
             }
         }
 
-        return 0;
+        return minDistance;
     }
 
     public static void main(String[] args) {
